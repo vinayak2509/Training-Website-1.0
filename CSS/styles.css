@@ -1,0 +1,113 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6256CA;
+  height: 50px;
+}
+.left-nav{
+  flex: 2;
+  margin-left: 10px;
+}
+.right-nav{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.welcome, .about{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.welcome{
+  height: 100%;
+  padding-top: 16%;
+  padding-bottom: 16%;
+  background-image: url('https://weblium.com/blog/wp-content/uploads/2019/10/photo-1495085461086-ae0ad0a8fd74-1344x734.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.hello{
+  font-size: 80px;
+}
+.about{
+  background-color:#86D293;
+  padding-bottom: 6%;
+  padding-top: 6%;
+}
+.abt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pfp{
+  margin-right: 3%;
+}
+.pfp.logo{
+  height: 300px;
+  border: none;
+  border-radius: 150px;
+}
+.about-me{
+  width: 50%;
+  font-size: 24px;
+}
+.skills{
+  height: 100%;
+  background-color: #C1E2A4;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-desc{
+  align-items: center;
+  padding-left: 30px;
+  width: 80%;
+  padding-top: 2%;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.skill{
+  height: 100%;
+}
+.heading{
+  margin: 0;
+  text-align: left;
+  padding-left: 2%;
+  padding-top: 50px;
+}
+.contact-me{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FDFAD9;
+  height: 100%;
+  padding-bottom: 20px;
+}
+.image-links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  margin-top: 20px;
+  height: 50px;
+}
+
+.linkedin{
+  margin-right: 10px;
+}
+.github{
+  margin-left: 10px;
+}
+.footer{
+  text-align: center;
+}
